@@ -375,7 +375,10 @@ Table of Contents
     font-size: 14px;
     line-height: 21px;
     color: #222;
-    background: #f7f7f7; }
+    background: url("../images/blue_dot.png");
+    background-size: 15px;
+    background-repeat: repeat;
+   }
   h1 {
     font-size: 28px;
     line-height: 42px;
@@ -542,7 +545,7 @@ Table of Contents
     width: 884px;
     padding: 21px;
     margin: 42px auto;
-    border: #990000 1px dotted;
+    border: #045ea7 3px dotted;
   }
   #content {
     clear: both;
@@ -688,7 +691,8 @@ Table of Contents
     font-size: 28px;
     line-height: 42px;
     padding: 0 0 5px 40px;
-    font-family: 'Gentium Basic', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     background-image: url("../images/logo.png");
     background-position: left;
     background-repeat: no-repeat;
@@ -791,7 +795,6 @@ Table of Contents
     z-index: 15;
     float: left;
     background-color: #011f5b;
-    border: #82afd3 1px dotted;
   }
     .nav-menu a {
       text-decoration: none; }
